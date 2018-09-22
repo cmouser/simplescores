@@ -1,0 +1,17 @@
+<html>
+  <head>
+
+  </head>
+  <body>
+    <div class="container">
+      {% for game in summary %}
+        <p>
+          {{game.home}}: {{game.score_home}}
+          <br/>
+          {{game.away}}: {{game.score_away}}
+        </p>
+        
+      {% endfor %}
+    </div>
+  </body>
+</html>
