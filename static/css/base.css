@@ -1,0 +1,135 @@
+body {
+    background:#000;
+}
+
+.ss-game {
+  border: 1px solid black;
+  padding: 8px 16px 4px;
+  font-size: 23px;
+  border-left: 1px solid transparent;
+  border-top: 1px solid transparent;
+}
+
+.ss-game.final {
+  background-color: #e8e8e8;
+}
+
+.ss-game.redzone {
+  background-color: #ffa7a7;
+}
+
+.ss-teamname {
+    font-weight: bold;
+}
+
+img.ss-teamimg {
+    display:inline;
+    border: 0px none;
+    max-width: 100%;
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    margin-top: -3px;
+}
+
+.inprogress .ss-team-emph .ss-teamname::after {
+    content: '';
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    -moz-border-radius: 7.5px;
+    -webkit-border-radius: 7.5px;
+    border-radius: 5px;
+    background-color: #741c1c;
+    vertical-align: middle;
+    margin-left: 12px;
+    margin-top: -5px;
+}
+
+.final .ss-team-emph{
+    color:green;
+    font-weight:bold;
+}
+
+.ss-game-summary {
+    font-size: 16px;
+    padding-left: 40px
+}
+.ss-game-summary.final {
+    color:#555;
+}
+
+.ss-drive-endzones {
+  background: repeating-linear-gradient(to right,#29ab29, #29ab29 8%, white 8%, white 8.33%);
+  position: relative;
+  height: 2px;
+  display: block;
+  margin: 2px 0px -4px 0px;
+}
+
+.ss-drive-distance-start {
+    background: #3afc3a;
+    height: 0px;
+    width: 10%;
+    position: absolute;
+    display: block;
+    left: 20%;
+}
+
+.ss-drive-distance-ball {
+    background: #4b1818;
+    height: 4px;
+    width: 3%;
+    position: absolute;
+    display: block;
+    left: 30%;
+}
+.ss-drive-endzones:before {
+    background: red;
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 8%;
+    left: 0px;
+}
+
+.ss-drive-endzones:after {
+    background: #3afc3a;
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 8%;
+    right: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.tesla {
+    background:#fff;
+    height:620px;
+    width:1160px;
+    margin-top:20px;
+}
